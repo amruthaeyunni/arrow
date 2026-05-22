@@ -6728,5 +6728,4 @@ class TeluguLocale(Locale):
     def _ordinal_number(self, n: int) -> str:
         if n >= 0:
             return f"{n}వ"
-        else:
-            return ""
+        return ""
